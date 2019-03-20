@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Hello {
+	// boolean --> true, false
+	// char
+	// byte --> int
+	// shot --> int
+	// int
+	// long --> int
+	// float
+	// double --> float
+	// String --> Text
+
+	static Scanner sc = new Scanner(System.in);
+	static world world = new world();
+	static world world2 = new world();
+
+	public static void main(String[] args) {
+		world.plu(100000);
+		world2.plu(80);
+		System.out.println(world2.dataNumber1);
+	}
+
+}

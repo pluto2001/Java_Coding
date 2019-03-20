@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class lab2_13_3 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		float pound = 0;
+		float kg = 0;
+		float a = 2.2046F;
+
+	}
+
+}

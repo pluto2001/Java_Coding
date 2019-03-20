@@ -1,0 +1,23 @@
+
+public class Hello {
+	 // boolean
+	// char
+	// byte
+	// shot
+	// int
+	// long
+	// float
+	// double
+	// String
+	
+	static String  word = "Hello Bai'Plu";
+
+	public static void main(String[] args) {
+		world data = new world(); // Object // วัตถุ
+		System.out.println(word);
+	}
+
+	public static int cal(int a, int b) {
+		return a + b;
+	}
+}

@@ -1,0 +1,23 @@
+
+public class Hello {
+	// boolean
+	// char
+	// byte
+	// shot
+	// int
+	// long
+	// float
+	// double
+	// String
+	
+	// initial
+
+	public static void main(String[] args) {
+		
+		boolean a = false;
+		System.out.println(a == true);
+		
+	}
+
+
+}

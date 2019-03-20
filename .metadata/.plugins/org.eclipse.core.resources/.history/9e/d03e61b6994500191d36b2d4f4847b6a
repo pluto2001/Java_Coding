@@ -1,0 +1,12 @@
+
+public class world {
+
+	// public
+	// private
+	
+	public void plu() {
+		System.out.print("Plu");
+		System.out.println("To");
+	}
+	
+}

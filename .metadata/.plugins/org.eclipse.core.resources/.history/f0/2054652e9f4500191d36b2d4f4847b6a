@@ -1,0 +1,22 @@
+
+public class Hello {
+	// boolean		--> true, false
+	// char
+	// byte       	--> int
+	// shot		  	--> int
+	// int	
+	// long			--> int
+	// float		
+	// double		--> float
+	// String		--> Text
+
+	public static void main(String[] args) {
+		float t = (float) 10.6;
+		String as = "50"+10.5;
+		int a = Integer.parseInt(as);
+		
+		System.out.println(as);
+	}
+
+
+}

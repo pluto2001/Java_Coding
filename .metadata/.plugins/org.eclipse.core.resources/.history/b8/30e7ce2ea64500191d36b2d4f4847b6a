@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Hello {
+	// boolean --> true, false
+	// char
+	// byte --> int
+	// shot --> int
+	// int
+	// long --> int
+	// float
+	// double --> float
+	// String --> Text
+
+	static Scanner sc = new Scanner(System.in);
+	static world world = new world();
+
+	public static void main(String[] args) {
+		
+		int _width = 0;
+		int _high = 0;
+		int _length = 0;
+		
+		System.out.println("Enter Width : ");
+		_width = Integer.parseInt(sc.nextLine());
+		System.out.println("Enter Length : ");
+		_length = Integer.parseInt(sc.nextLine());
+		System.out.println("Enter High : ");
+		_high = Integer.parseInt(sc.nextLine());
+		System.out.println("The value of object is : "+_width*_length*_high);
+	}
+
+}

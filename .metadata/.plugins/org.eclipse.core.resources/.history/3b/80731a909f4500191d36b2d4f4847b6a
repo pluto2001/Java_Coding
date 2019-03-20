@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Hello {
+	// boolean		--> true, false
+	// char
+	// byte       	--> int
+	// shot		  	--> int
+	// int	
+	// long			--> int
+	// float		
+	// double		--> float
+	// String		--> Text
+	
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		float a = 0;
+		a = Float.parseFloat(sc.nextLine());
+		System.out.println(a);
+		
+	}
+
+
+}

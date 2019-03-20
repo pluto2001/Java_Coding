@@ -1,0 +1,21 @@
+
+public class Hello {
+	// boolean		--> true, false
+	// char
+	// byte       	--> int
+	// shot		  	--> int
+	// int	
+	// long			--> int
+	// float		
+	// double		--> float
+	// String		--> Text
+
+	public static void main(String[] args) {
+		float t = (float) 10.1;
+		int a = Integer.parseInt(String.valueOf(t));
+		System.out.println(a);
+		
+	}
+
+
+}

@@ -1,0 +1,10 @@
+
+public class world {
+
+	public int dataNumber1 = 20;
+
+	public void plu(int data) {
+		this.dataNumber1 = data;
+	}
+
+}

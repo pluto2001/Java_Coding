@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class lab2_13_2 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static int main(String[] args) {
+		int price = 150;
+		int discount = 50; 
+		int a = sum(price,discount);
+		System.out.println("Program POS calculation");
+		System.out.println("Enter Price :");
+		price = Integer.parseInt(sc.nextLine());
+		System.out.println("Enter Discount price is :");
+		discount = Integer.parseInt(sc.nextLine());
+		System.out.println("skfj"+a);
+		return a;
+
+	}
+	public static int sum(int price, int discount) {
+		int percent;
+		percent = 100*(discount/price);
+		return percent;
+	}
+
+}

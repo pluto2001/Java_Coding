@@ -1,0 +1,13 @@
+
+public class world {
+
+	// public
+	// private
+	
+	public int dataNumber1 = 20;
+
+	public void plu() {
+		
+	}
+
+}

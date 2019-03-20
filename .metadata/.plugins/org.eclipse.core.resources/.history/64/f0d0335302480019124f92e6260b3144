@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Lab2_11_5 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		int data1 = 0;
+		int data2 = 0;
+		System.out.print("Enter Length and Width of Square:");
+		data1 = Integer.parseInt(sc.nextLine());
+		data2 = Integer.parseInt(sc.nextLine());
+
+	}
+
+}

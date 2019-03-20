@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Lab1_12_1 {
+
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		int aa = 0;
+		int bb = 0;
+		int cc = 0;
+		System.out.print("Enter A :");
+		aa = Integer.parseInt(sc.nextLine());
+		System.out.print("Enter B :");
+		bb = Integer.parseInt(sc.nextLine());
+		System.out.print("Enter C :");
+		cc = Integer.parseInt(sc.nextLine());
+		System.out.println("In Term X = 2"+(2*aa*bb)+cc);
+
+	}
+
+}

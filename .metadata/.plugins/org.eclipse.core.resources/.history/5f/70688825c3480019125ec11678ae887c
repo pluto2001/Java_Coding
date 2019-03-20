@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Lab2_16_1 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		int number1 = 0;
+		int number2 = 0;
+		number1 = Integer.parseInt(sc.nextLine());
+
+	}
+
+}

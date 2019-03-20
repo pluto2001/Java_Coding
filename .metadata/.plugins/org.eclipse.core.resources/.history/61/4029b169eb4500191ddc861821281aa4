@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Lab1_11_4 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		float coust = 0;
+		float profit = 0;
+		int sum = 0;
+		sum = (profit/100)*coust;
+		System.out.print("Coust :");
+		coust = Math.round(Float.parseFloat(sc.nextLine()));
+		System.out.print("Profot :");
+		profit = Math.round(Float.parseFloat(sc.nextLine()));
+		System.out.println("Sale Price ="+sum+coust);
+		
+
+	}
+
+}

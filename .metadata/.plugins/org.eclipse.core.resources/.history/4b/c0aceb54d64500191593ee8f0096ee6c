@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Lab1_10_4 {
+
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		int pound;
+		System.out.println("Weight Conversion Porgram");
+		System.out.println("Enter weight in pound :");
+		pound = Integer.parseInt(sc.nextLine());
+		System.out.println("Weight Conversion to kg. is"+pound/2.2);
+		
+	}
+
+}

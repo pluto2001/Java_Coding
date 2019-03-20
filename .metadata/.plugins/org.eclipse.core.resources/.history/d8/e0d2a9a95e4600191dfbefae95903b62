@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Lab1_11_2 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		float value1 = 0;
+		float value2 = 0;
+		float value3 = 0;
+		float value4 = 0;
+		float value5 = 0;
+		System.out.println("Value1 =");
+		value1 = Math.round(Float.parseFloat(sc.nextLine()));
+		System.out.println("Value2 =");
+		value2 = Math.round(Float.parseFloat(sc.nextLine()));
+		System.out.println("Value3 =");
+		value3 = Math.round(Float.parseFloat(sc.nextLine()));
+		System.out.println("Value4 =");
+		value4 = Math.round(Float.parseFloat(sc.nextLine()));
+		System.out.println("Value5 =");
+		value5 = Math.round(Float.parseFloat(sc.nextLine()));
+		System.out.println("Average ="+value1+value2+value3+value4+value5/5);
+	}
+
+}

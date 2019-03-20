@@ -1,0 +1,8 @@
+import java.util.Scanner;
+
+public class Lab2_17_4 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+	

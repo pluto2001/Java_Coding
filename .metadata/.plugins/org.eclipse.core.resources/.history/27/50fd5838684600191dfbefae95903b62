@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Lab1_11_5 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		float ab = 0;
+		System.out.println("AB = ");
+		ab = Math.round(Float.parseFloat(sc.nextLine()));
+		System.out.println("Area = ");
+		System.out.println((ab*ab)3.14*(ab/2)*(ab/2));
+
+	}
+
+}

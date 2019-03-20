@@ -1,0 +1,11 @@
+
+public class world {
+
+	public int dataNumber1 = 20;
+	
+	public world() {
+		// constructor
+		this.dataNumber1 = 50;
+	}
+
+}

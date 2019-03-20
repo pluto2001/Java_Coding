@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Lab2_13_3 {
+
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		float pound = Math.round(Float.parseFloat(sc.nextLine()));
+		float kg = Math.round(Float.parseFloat(sc.nextLine())), sum = 0;
+		
+		
+	}
+
+}
