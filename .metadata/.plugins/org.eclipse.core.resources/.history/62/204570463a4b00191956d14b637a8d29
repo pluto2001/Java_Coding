@@ -14,7 +14,7 @@ public class Lab2_16_3 {
 			for (int j = 0; j < 3; j += 1) {
 				input[j] = sc.nextInt();
 				min = input[0];
-				min = min > input[j] ? input[j] : min;
+				min = min < input[j] ? input[j] : min;
 			}
 		}
 		System.out.println(min);

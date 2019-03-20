@@ -7,17 +7,17 @@ public class Lab2_16_3 {
 	public static void main(String[] args) {
 		int round = 0;
 		int input[] = new int[10];
-		int min = 0;
-
+		
 		round = Integer.parseInt(sc.nextLine());
-		for (int i = 0; i < round; i += 1) {
-			for (int j = 0; j < 3; j += 1) {
-				input[j] = sc.nextInt();
-				min = input[0];
-				min = min > input[j] ? input[j] : min;
+		for (int i = 0;i < round; i += 1) {
+			for (int j = 0; j < 3; i += 1) {
+				input[j] = Integer.parseInt(sc.nextLine());
+				System.out.println(input[j]);
+				
 			}
+			
 		}
-		System.out.println(min);
+
 	}
 
 }
