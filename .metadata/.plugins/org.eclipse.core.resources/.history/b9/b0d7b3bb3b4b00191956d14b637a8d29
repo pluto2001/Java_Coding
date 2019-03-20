@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Lab1_12_3 {
-
+	
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Lab1_12_3 {
 		ppp = Integer.parseInt(sc.nextLine());
 		System.out.println("Enter Weight per Box (g.) = ");
 		xxx = Integer.parseInt(sc.nextLine());
-		System.out.println("The Total Box in The Week = " + ppp * 10 * 10 * 10 / xxx + "Boxes");
+		System.out.println("The Total Box in The Week = "+ppp*10*10*10/ppp+ "Boxes");
 	}
 
 }
