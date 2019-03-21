@@ -20,6 +20,14 @@ public class Lab2_16_4 {
 			} else if (score <= 50) {
 				System.out.println("Grade F");
 			}
+			System.out.println("Do you want continue:");
+			String data = sc.nextLine();
+			if(data.equals("Y")) {
+				continue;
+			}else if(data.equals("N")) {
+				System.out.println("Exit");
+				break;
+			}
 
 		}
 
