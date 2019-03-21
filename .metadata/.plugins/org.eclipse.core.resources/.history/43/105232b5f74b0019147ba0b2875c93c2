@@ -6,7 +6,7 @@ public class Lab2_10_4 {
 
 	public static void main(String[] args) {
 		int score = 0;
-
+		
 		while (true) {
 			System.out.print("Enter score =");
 			score = Integer.parseInt(sc.nextLine());
@@ -21,15 +21,6 @@ public class Lab2_10_4 {
 			} else if (score < 50) {
 				System.out.println("Your Grade = F");
 			}
-			System.out.println("Do you want continue :");
-			String data = sc.nextLine();
-			if (data.equals("Y")) {
-				continue;
-			} else if (data.equals("N")) {
-				System.out.println("Exit");
-				break;
-			}
-
 		}
 
 	}

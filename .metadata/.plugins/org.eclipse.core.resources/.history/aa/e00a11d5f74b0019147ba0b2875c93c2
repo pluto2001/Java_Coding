@@ -26,7 +26,6 @@ public class Lab2_10_4 {
 			if (data.equals("Y")) {
 				continue;
 			} else if (data.equals("N")) {
-				System.out.println("Exit");
 				break;
 			}
 
