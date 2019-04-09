@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Lab2_14_1 {
+
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		char aZ1 = 0;
+		int aZ2 = 0;
+		aZ1 = (char) Integer.parseInt(sc.nextLine());
+		for (char i = 'A'; i <= 'Z'; i++) {
+			//System.out.println(i);
+			
+			
+		}
+
+	}
+
+}

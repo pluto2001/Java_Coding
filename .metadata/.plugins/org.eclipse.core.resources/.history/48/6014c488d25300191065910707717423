@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Lab1_13_1 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		char[] input = new char [3];
+		for(int i=0;i<3;i++) {
+			input = Char.sc.nextLine();
+			
+		}
+
+	}
+
+}

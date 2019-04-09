@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Lab2_12_5 {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		int round = 0;
+		int input[] = new int[round];
+		int count = 0;
+		for(int i=0;i<round;i+=1) {
+			input[i] = sc.nextInt();
+			if(input[i]<50);{
+				count+=1;
+			}
+			System.out.println("Number<50 :"+count);
+		}
+
+	}
+
+}

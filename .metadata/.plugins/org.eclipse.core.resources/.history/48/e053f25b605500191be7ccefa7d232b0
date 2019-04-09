@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Lab2_14_2 {
+
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		char[] input = new char[2];
+		input[2] = (char) sc.nextInt();
+
+		for (char i = 'A'; i > 'Z'; i++) {
+
+			if (i <= input[0] || i >= input[1]) {
+				System.out.print(i);
+			}
+
+		}
+
+	}
+
+}

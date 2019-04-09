@@ -15,6 +15,7 @@ public class Lab2_17_2 {
 		System.out.print("lncome =");
 		System.out.println(salary + overtime);
 		
+		
 	}
 
 
