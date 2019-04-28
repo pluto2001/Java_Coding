@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class newlab1_3 {
+
+	static Scanner sc = new Scanner(System.in);
+
+	static int round = Integer.parseInt(sc.nextLine());
+
+	public static void main(String[] args) {
+		int[] number = new int[round];
+		int numberSum = 0;
+		int i = 0;
+		
+		for ( i = 0; i < round; i++) {
+			number[i] = sc.nextInt();
+			numberSum = sc.nextInt();
+		}
+		if (numberSum > 0) {
+			System.out.println(number[i] + numberSum);
+		}
+
+	}
+
+}

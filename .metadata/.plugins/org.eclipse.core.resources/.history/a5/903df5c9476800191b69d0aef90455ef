@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+public class newlab1_7 {
+
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		int number;
+		char operator;
+		int sum = 0;
+		
+
+		System.out.println("Number :");
+		number = Integer.parseInt(sc.nextLine());
+		System.out.println("Operator :");
+		operator = sc.nextLine().charAt(0);
+		while (true) {
+			if (operator == '+') {
+				System.out.println("Number :");
+				number = Integer.parseInt(sc.nextLine());
+				System.out.println("Operator :");
+				operator = sc.nextLine().charAt(0);
+				sum = number + number;
+			}
+			if (operator == '-') {
+				System.out.println("Number :");
+				number = Integer.parseInt(sc.nextLine());
+				System.out.println("Operator :");
+				operator = sc.nextLine().charAt(0);
+				sum = number - number;
+			}
+			if (operator == '*') {
+				System.out.println("Number :");
+				number = Integer.parseInt(sc.nextLine());
+				System.out.println("Operator :");
+				operator = sc.nextLine().charAt(0);
+				sum = sum * number;
+			}
+			if (operator == '/') {
+				System.out.println("Number :");
+				number = Integer.parseInt(sc.nextLine());
+				System.out.println("Operator :");
+				operator = sc.nextLine().charAt(0);
+				sum = sum / number;
+			}
+
+			if (operator == '=') {
+				System.out.println("Number :");
+				System.out.println(sum);
+				System.out.println("Operator :");
+				operator = sc.nextLine().charAt(0);
+			}
+
+		}
+
+	}
+
+}
