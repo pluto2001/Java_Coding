@@ -30,7 +30,7 @@ public class newlab1_7 {
 				number2 = Integer.parseInt(sc.nextLine());
 				System.out.print("Operator :");
 				operator = sc.nextLine().charAt(0);
-				sum = number2 - number2;
+				sum = sum - number2;
 			}
 			if (operator == '*') {
 				System.out.print("Number :");
