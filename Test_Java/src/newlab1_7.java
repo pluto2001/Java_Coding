@@ -3,59 +3,78 @@ import java.util.Scanner;
 public class newlab1_7 {
 
 	static Scanner sc = new Scanner(System.in);
+	static float total;
+	static float numberInput;
+	static String operation;
+	static int stepInput = 0;
 
 	public static void main(String[] args) {
-		int number1 = 0;
-		int sum = 0;
-		int number2 = 0;
-		char operator;
-		
-		
-
-		System.out.print("Number :");
-		number1 = Integer.parseInt(sc.nextLine());
-		System.out.print("Operator :");
-		operator = sc.nextLine().charAt(0);
 		while (true) {
-			sum = number1 + number2;
-			if (operator == '+') {
-				System.out.print("Number :");
-				number2 = Integer.parseInt(sc.nextLine());
-				System.out.print("Operator :");
-				operator = sc.nextLine().charAt(0);
-				sum = sum + number2;
-			}
-			if (operator == '-') {
-				System.out.print("Number :");
-				number2 = Integer.parseInt(sc.nextLine());
-				System.out.print("Operator :");
-				operator = sc.nextLine().charAt(0);
-				sum = number2 - number2;
-			}
-			if (operator == '*') {
-				System.out.print("Number :");
-				number2 = Integer.parseInt(sc.nextLine());
-				System.out.print("Operator :");
-				operator = sc.nextLine().charAt(0);
-				sum = sum * number2;
-			}
-			if (operator == '/') {
-				System.out.print("Number :");
-				number2 = Integer.parseInt(sc.nextLine());
-				System.out.print("Operator :");
-				operator = sc.nextLine().charAt(0);
-				sum = sum / number2;
-			}
+			if (stepInput == 0) {
+				try {
+					System.out.println("Enter Number : ");
+					total = Float.parseFloat(sc.nextLine());
+					stepInput = 1;
+				} catch (Exception e) {
+					System.out.println("Enter Number Agian");
+					stepInput = 0;
+				}
 
-			if (operator == '=') {
-				System.out.print("Number :");
-				System.out.println(sum);
-				System.out.print("Operator :");
-				operator = sc.nextLine().charAt(0);
-			}
-			if(operator=='N') {
-				System.out.println("End Calculate");
-				break;
+			} else if (stepInput == 1) {
+				try {
+
+					System.out.println("Enter Operation : ");
+					String inputOperation = sc.nextLine();
+					if (inputOperation.equals("+")) {
+						operation = "+";
+					} else if (inputOperation.equals("-")) {
+						operation = "-";
+					} else if (inputOperation.equals("*")) {
+						operation = "*";
+					} else if (inputOperation.equals("/")) {
+						operation = "/";
+					} else if (inputOperation.equals("=")) {
+						operation = "=";
+					}
+					stepInput = 2;
+				} catch (Exception e) {
+					System.out.println("Enter Operation Agian");
+					stepInput = 1;
+					operation = "";
+				}
+			} else if (stepInput == 2) {
+				
+				try {
+					
+					if (operation.equals("+")) {
+						System.out.println("Enter Number : ");
+						numberInput = Float.parseFloat(sc.nextLine());
+						total = total + numberInput;
+					} else if (operation.equals("-")) {
+						System.out.println("Enter Number : ");
+						numberInput = Float.parseFloat(sc.nextLine());
+						total = total - numberInput;
+					} else if (operation.equals("*")) {
+						System.out.println("Enter Number : ");
+						numberInput = Float.parseFloat(sc.nextLine());
+						total = total * numberInput;
+					} else if (operation.equals("/")) {
+						System.out.println("Enter Number : ");
+						numberInput = Float.parseFloat(sc.nextLine());
+						total = total / numberInput;
+					}
+					if (operation.equals("=")) {
+						System.out.println("Number : " + total);
+						
+					}
+					stepInput = 1;
+					
+					stepInput = 1;
+				} catch (Exception e) {
+					System.out.println("Enter Number Agian");
+					stepInput = 2;
+				}
+
 			}
 
 		}
